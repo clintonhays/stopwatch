@@ -55,4 +55,5 @@ resetButton.addEventListener("click", () => {
   s = 0;
   m = 0;
   stopwatch.textContent = getTimer();
+  startPauseButton.innerHTML = `<img src="img/icons8-play-64(1).png" alt="play button" />`;
 });

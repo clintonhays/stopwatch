@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  background: rgb(9, 9, 121);
+  background: -webkit-linear-gradient(45deg, hsla(174.11, 89.99%, 50%, 1) 30%, hsla(174.11, 89.99%, 50%, 0) 0%),
+    -webkit-linear-gradient(155deg, hsla(187.7, 95%, 50%, 1) 48%, hsla(187.7, 95%, 50%, 0) 0%),
+    -webkit-linear-gradient(307deg, hsla(183.17, 100%, 55%, 1) 100%, hsla(183.17, 100%, 55%, 0) 0%);
+  background: linear-gradient(45deg, rgb(162, 255, 246) 30%, hsla(174.11, 89.99%, 50%, 0) 0%),
+    linear-gradient(295deg, hsla(187.7, 95%, 50%, 1) 48%, hsla(187.7, 95%, 50%, 0) 0%),
+    linear-gradient(143deg, hsla(183.17, 100%, 55%, 1) 100%, hsla(183.17, 100%, 55%, 0) 0%);
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+}
+
+header {
+  text-align: center;
+  margin-top: 3em;
+}
+
+h1 {
+  font-size: 3em;
+  color: #f9ffdf;
+}
+
+.vanillaPic {
+  width: 10em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.stopwatch {
+  text-align: center;
+  color: #f9ffdf;
+  font-size: 4em;
+  flex-basis: 100%;
+  margin-top: 30px;
+}
+
+.startAndPause {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 83px;
+  width: 83px;
+}
+
+.reset {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 83px;
+  width: 83px;
+}
+
+.container button:focus {
+  border: 2px solid #f9ffdf;
+  border-radius: 50%;
+}
