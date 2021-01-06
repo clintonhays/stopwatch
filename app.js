@@ -16,6 +16,7 @@ const start = () => {
   if (!timer) {
     timer = setInterval(run, 10);
   }
+  startPauseButton.innerHTML = `<img src="img/icons8-pause-64.png" alt="pause button" />`;
 };
 
 const run = () => {
@@ -44,6 +45,7 @@ startPauseButton.addEventListener("click", () => {
     start();
   } else {
     stopTimer();
+    startPauseButton.innerHTML = `<img src="img/icons8-play-64(1).png" alt="play button" />`;
   }
 });
 
